@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application_Kteam", "Application_Kteam\Application_Kteam.csproj", "{C875A305-3E3B-4273-8347-2677A2B03C49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C875A305-3E3B-4273-8347-2677A2B03C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C875A305-3E3B-4273-8347-2677A2B03C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C875A305-3E3B-4273-8347-2677A2B03C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C875A305-3E3B-4273-8347-2677A2B03C49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD59AE6D-FC90-4A6E-BF15-96C38428F1BF}
+	EndGlobalSection
+EndGlobal

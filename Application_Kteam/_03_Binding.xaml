@@ -1,0 +1,21 @@
+﻿<Window x:Class="Application_Kteam._03_Binding"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Application_Kteam"
+        mc:Ignorable="d"
+        Title="_03_Binding" Height="450" Width="750.5">
+    <Grid>
+        <!--<TextBox x:Name="txtSource" Text="Thuc lan 1" VerticalAlignment="Top" Height="30" ></TextBox>
+        <TextBox x:Name="txtBinding" VerticalAlignment="Center" Text="{Binding Path=Text, ElementName=txtSource, Mode=TwoWay}" Margin="0,242,0,159"></TextBox>
+        <TextBox x:Name="txtBindingForm" Text="500" VerticalAlignment="Center" ></TextBox>
+        <Button VerticalAlignment="Bottom">ok</Button>-->
+
+        <TextBox x:Name="txtSource" Text="{Binding DataBiding}" VerticalAlignment="Top" Height="30" ></TextBox>
+        <TextBox x:Name="txtBinding" VerticalAlignment="Center" Text="{Binding Path=Text, ElementName=txtSource, Mode=TwoWay}" Margin="0,242,0,138" Height="39"></TextBox>
+        <TextBox x:Name="txtBindingForm" Text="500" VerticalAlignment="Center" ></TextBox>
+        <Button VerticalAlignment="Bottom" Content="{Binding DataBiding}"></Button>
+    </Grid>
+
+</Window>
